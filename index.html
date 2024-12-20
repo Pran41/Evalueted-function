@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evel function</title>
+</head>
+<body>
+    <p>Click the button to evaluate/execute JavaScript code/expressions.</p>
+    <button oneclick="myfunction()">Try now</button>
+    <p id="result"></p>
+    <script>
+        function myfunction(){
+            var x = 10;
+            var y = 20;
+            var a = eval("x + y") + "<br>";
+            var b = eval("2 * 2") + "<br>";
+            var c = eval("x - y") + "<br>";
+        }
+    </script>
+</body>
+</html>
